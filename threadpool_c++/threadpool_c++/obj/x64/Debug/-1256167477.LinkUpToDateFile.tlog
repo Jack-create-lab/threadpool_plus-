@@ -1,0 +1,1 @@
+g++ -o "/home/ubuntu/projects/threadpool_c++/bin/x64/Debug/threadpool_c++.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ubuntu/projects/threadpool_c++/obj/x64/Debug/main.o /home/ubuntu/projects/threadpool_c++/obj/x64/Debug/TaskQueue.o /home/ubuntu/projects/threadpool_c++/obj/x64/Debug/ThreadPool.o -lpthread
